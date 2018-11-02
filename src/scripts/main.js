@@ -1,8 +1,8 @@
-import sayHello from "./hello"
-import sayGoodbye from "./goodbye"
-import SandwichMaker from "./sandwichMaker"
+// import sayHello from "./hello"
+// import sayGoodbye from "./goodbye"
+// import SandwichMaker from "./sandwichMaker"
 
-sayHello()
-sayGoodbye()
+// sayHello()
+// sayGoodbye()
 
-SandwichMaker.placeOrder("rye", "capicola", "provolone")
+// SandwichMaker.placeOrder("rye", "capicola", "provolone")
