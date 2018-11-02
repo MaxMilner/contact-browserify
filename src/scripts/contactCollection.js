@@ -1,3 +1,5 @@
 function collectContacts () {
-  fetch("http://localhost:3000/contacts")
+  fetch("http://localhost:8088/contacts")
 }
+
+export default 
