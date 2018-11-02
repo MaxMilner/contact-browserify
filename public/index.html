@@ -6,11 +6,32 @@
     <title>Browserify Boilerplate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-    <article class="output">
+    <h1>NO ONE USES ADDRESS BOOKS</h1>
+    <fieldset>
+      <section id="name_box">
+          <label for="name_box">Name:</label>
+          <input id="name_box" name="name" type="text" autofocus placeholder="Name" />
+      </section>
 
-    </article>
+      <section id="number_box">
+          <label for="number_box">Phone Number:</label>
+          <input id="number_box" name="number" type="text" autofocus placeholder="Phone Number" />
+      </section>
 
-    <script src="hellogoodbye.js"></script>
+      <section id="address_box">
+          <label for="address_box">Address:</label>
+          <input id="address_box" name="address" type="text" autofocus placeholder="Address" />
+      </section>
+    </fieldset>
+    <button id="save">Save</button>
+
+  <article class="output">
+
+  </article>
+
+  <script src="bundle.js"></script>
 </body>
+
 </html>
